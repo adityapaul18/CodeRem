@@ -1,3 +1,12 @@
+## CodeRem
+It's a simple one-stop app for all competitive programmers that fetches details of  all upcoming and ongoing CP contests , and helps keep tack of all the contest without navigating through different sites .
+
+Currently covers 
+1. codechef 
+2. hackerearth 
+3. codeforces contests 
+4. few hiring challenges 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
