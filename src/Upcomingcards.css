@@ -1,0 +1,32 @@
+
+.Card_body1
+{
+    margin: 20px;
+    padding-top: 10px;
+    background-color: rgb(251, 255, 0);
+    text-align: center;
+    padding-bottom:10px;
+    border-radius: 5px;
+    max-width: 710px;
+}
+
+.img1{
+    width: 170px;
+}
+
+.goto a{
+    text-decoration: none;
+    color: black;
+}
+
+.goto{
+    background-color: rgba(255, 0, 0, 0.801);
+    width: fit-content;
+    margin-top:30px;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    border-radius: 10px;
+}
+
