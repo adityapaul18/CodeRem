@@ -36,14 +36,25 @@
     position: absolute;
     top: 0;
     left: -100%;
-    transition: 900ms;
+    transition: 500ms;
     font-family: 'Lato', sans-serif;
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 
+.nav-menu::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-menu.active::-webkit-scrollbar {
+    display: none;
+  }
 .nav-menu.active{
     position: absolute;
     left: 0;
     transition: 350ms;
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 
 .nav-text{
@@ -92,4 +103,13 @@ span{
 
 .list{
     margin-top: 100px;
+}
+
+.makesname{
+    color: beige;
+    margin-bottom: -30px;
+}
+
+.lower{
+    padding-bottom: 30px;
 }
