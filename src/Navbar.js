@@ -26,6 +26,11 @@ function Navbar() {
                        <AiIcons.AiOutlineClose />
                    </Link>
                 </li>
+
+                <div className="makesname"> 
+                Made by Aditya Paul
+                <div className="collname">IIIT Surat CSE</div>
+            </div>
                 <div className="list">
                 {SidebarData.map((item,index) => {
                     return(
@@ -38,6 +43,7 @@ function Navbar() {
                     )
                 } )}
                 </div>
+            <div className="lower"></div>
             </ul>
         </nav>
        
