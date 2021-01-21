@@ -24,10 +24,12 @@
   font-size: 23px;
   font-weight: 700;
   padding-bottom: 13px;
+  cursor: pointer;
 }
 
 .react-tabs__tab--selected{
   border-bottom: 5px rgb(0, 195, 230) solid ;
+  cursor: pointer;
 }
 
 *{
