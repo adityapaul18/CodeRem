@@ -30,6 +30,12 @@ function App() {
 
     console.log(data?.result)
 
+    if(!data) {
+      return(
+        <About/>
+      );
+    }
+
 
   return (
     <div className="App">
@@ -58,7 +64,7 @@ function App() {
              <center>
              <div className="ongoing_cont">
               {data?.result.ongoing.map(item => (
-                <Ongoingcards data={item}/>
+               <Ongoingcards data={item}/>
                 ))
               }
           </div>
