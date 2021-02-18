@@ -1,0 +1,10 @@
+.header1{
+    background-color:rgb(0, 0, 46);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
+    font-size: 55px;
+    color: white;
+}
